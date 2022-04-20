@@ -29,6 +29,94 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/footerdeco\/divide.png" : {
+      "ft" : 32768,
+      "iS" : 133,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/footerdeco\/divide.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/footerdeco\/facebook.png" : {
+      "ft" : 32768,
+      "iS" : 346,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/footerdeco\/facebook.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/footerdeco\/instagram.png" : {
+      "ft" : 32768,
+      "iS" : 503,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/footerdeco\/instagram.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/footerdeco\/location icon.png" : {
+      "ft" : 32768,
+      "iS" : 523,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/footerdeco\/location icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/footerdeco\/mobile icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/footerdeco\/mobile icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/footerdeco\/twitter.png" : {
+      "ft" : 32768,
+      "iS" : 417,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/footerdeco\/twitter.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/footerdeco\/youtube.png" : {
+      "ft" : 32768,
+      "iS" : 376,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/footerdeco\/youtube.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/gallery\/hero 2.png" : {
       "ft" : 32768,
       "iS" : 1135684,
@@ -77,6 +165,19 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/deploy\/img\/heroes\/arrow.png" : {
+      "ft" : 32768,
+      "iS" : 175,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/heroes\/arrow.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/img\/heroes\/hero 1.jpg" : {
       "ft" : 16384,
@@ -237,7 +338,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/global\/footer.html",
       "oF" : 0
     },
