@@ -29,6 +29,45 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/gallery\/hero 2.png" : {
+      "ft" : 32768,
+      "iS" : 1135684,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/gallery\/hero 2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/gallery\/hero 3.png" : {
+      "ft" : 32768,
+      "iS" : 419704,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/gallery\/hero 3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/gallery\/hero 4.png" : {
+      "ft" : 32768,
+      "iS" : 380743,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/gallery\/hero 4.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/header\/レイヤー 2.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -48,45 +87,6 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/heroes\/hero 2.png" : {
-      "ft" : 32768,
-      "iS" : 1135684,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/heroes\/hero 2.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/heroes\/hero 3.png" : {
-      "ft" : 32768,
-      "iS" : 419704,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/heroes\/hero 3.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/heroes\/hero 4.png" : {
-      "ft" : 32768,
-      "iS" : 380743,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/heroes\/hero 4.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -209,12 +209,28 @@
       "oAP" : "\/dev\/content\/alban.html",
       "oF" : 0
     },
+    "\/dev\/content\/gallery.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/gallery.html",
+      "oF" : 0
+    },
     "\/dev\/content\/learn.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/learn.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/streaming.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/streaming.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
