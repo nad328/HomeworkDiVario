@@ -388,9 +388,17 @@ textarea {
 /* =============
     Alban 
 ============= */
+#Alban img {
+  width: 100%;
+}
+
 /* =============
-    streams 
+    gallery 
 ============= */
+#gallery img {
+  width: 100%;
+}
+
 /* =============
     learn
 ============= */
