@@ -2,6 +2,11 @@
     Alban 
 ============= */
 #Alban{
+
+@include md{
+    grid-template-columns: auto 89% auto;
+    }
+
     img{
         width: 100%;
     }

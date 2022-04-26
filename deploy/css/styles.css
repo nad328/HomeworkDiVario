@@ -363,10 +363,10 @@ ul li {
 .css-grid-global {
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". header .";
+  grid-template-areas: ". global-content .";
 }
 .css-grid-global > div {
-  grid-area: header;
+  grid-area: global-content;
 }
 
 /* =============
@@ -405,6 +405,11 @@ textarea {
 /* =============
     Alban 
 ============= */
+@media (min-width: 768px) {
+  #Alban {
+    grid-template-columns: auto 89% auto;
+  }
+}
 #Alban img {
   width: 100%;
 }
@@ -412,6 +417,11 @@ textarea {
 /* =============
     gallery 
 ============= */
+@media (min-width: 768px) {
+  #gallery {
+    grid-template-columns: auto 80% auto;
+  }
+}
 #gallery img {
   width: 100%;
 }
@@ -419,6 +429,25 @@ textarea {
 /* =============
     learn
 ============= */
+@media (min-width: 768px) {
+  #learn {
+    grid-template-columns: auto 80% auto;
+  }
+}
+@media (min-width: 1440px) {
+  #learn {
+    grid-template-columns: auto 1440px auto;
+  }
+}
+@media (min-width: 768px) {
+  #learn > div {
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
+}
+#learn > div aside img {
+  widith: 100%;
+}
 /* =============
     search 
 ============= */

@@ -2,6 +2,11 @@
     gallery 
 ============= */
 #gallery{
+
+    @include md{
+        grid-template-columns: auto 80% auto;
+        }
+        
     img{
         width: 100%;
     } 
