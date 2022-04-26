@@ -454,6 +454,11 @@ textarea {
 /* =============
     streams 
 ============= */
-#streams img {
-  width: 100%;
+#streams ul {
+  display: grid;
+  gap: 15px;
+  grid-template-rows: repeat(5, 433px);
+}
+#streams ul img {
+  width: 150%;
 }

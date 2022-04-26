@@ -3,7 +3,21 @@
 ============= */
 #streams{
     
+ul{
+    display: grid;
+    gap: 15px;
+    grid-template-rows: repeat(5, 433px);
+
+   
     img{
-        width: 100%;
+        width: 150%;
     } 
+
+    li{
+
+    }
+
+}
+
+    
 }
