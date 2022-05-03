@@ -22,11 +22,20 @@ ul{
         grid-area: global-content;
     }
 
-    .show-for-mid{
+    .show-for-md{
         display: none;
 
         @include md{
             display: block;
         }
     }
+
+    .show-for-lg{
+        display: none;
+
+        @include lg{
+            display: block;
+        }
+    }
 }
+
