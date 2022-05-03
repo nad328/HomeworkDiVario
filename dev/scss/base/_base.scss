@@ -21,4 +21,12 @@ ul{
     >div{
         grid-area: global-content;
     }
+
+    .show-for-mid{
+        display: none;
+
+        @include md{
+            display: block;
+        }
+    }
 }
