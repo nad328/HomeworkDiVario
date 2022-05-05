@@ -117,11 +117,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/gallery\/hero 2.png" : {
+    "\/deploy\/img\/gallery\/hero2.png" : {
       "ft" : 32768,
       "iS" : 1135684,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/gallery\/hero 2.png",
+      "oAP" : "\/deploy\/img\/gallery\/hero2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -130,11 +130,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/gallery\/hero 3.png" : {
+    "\/deploy\/img\/gallery\/hero3.png" : {
       "ft" : 32768,
       "iS" : 419704,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/gallery\/hero 3.png",
+      "oAP" : "\/deploy\/img\/gallery\/hero3.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -143,11 +143,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/gallery\/hero 4.png" : {
+    "\/deploy\/img\/gallery\/hero4.png" : {
       "ft" : 32768,
       "iS" : 380743,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/gallery\/hero 4.png",
+      "oAP" : "\/deploy\/img\/gallery\/hero4.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -169,11 +169,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/header\/レイヤー 2.svg" : {
+    "\/deploy\/img\/header\/shiyaa2.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/header\/レイヤー 2.svg",
+      "oAP" : "\/deploy\/img\/header\/shiyaa2.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -192,12 +192,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/heroes\/hero 1.jpg" : {
+    "\/deploy\/img\/heroes\/hero1.jpg" : {
       "ft" : 16384,
       "iS" : 663011,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/heroes\/hero 1.jpg",
+      "oAP" : "\/deploy\/img\/heroes\/hero1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -205,11 +205,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/learn more\/uki violeta.png" : {
+    "\/deploy\/img\/learn more\/ukivioleta.png" : {
       "ft" : 32768,
       "iS" : 29216,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/learn more\/uki violeta.png",
+      "oAP" : "\/deploy\/img\/learn more\/ukivioleta.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -218,12 +218,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/learn more\/yugo asuma.jpg" : {
+    "\/deploy\/img\/learn more\/yugoasuma.jpg" : {
       "ft" : 16384,
       "iS" : 22328,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/learn more\/yugo asuma.jpg",
+      "oAP" : "\/deploy\/img\/learn more\/yugoasuma.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -231,11 +231,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/streams\/fulgur stream.png" : {
+    "\/deploy\/img\/streams\/fulgurstream.png" : {
       "ft" : 32768,
       "iS" : 138131,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/streams\/fulgur stream.png",
+      "oAP" : "\/deploy\/img\/streams\/fulgurstream.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -244,11 +244,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/streams\/ike stream.png" : {
+    "\/deploy\/img\/streams\/ikestream.png" : {
       "ft" : 32768,
       "iS" : 117622,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/streams\/ike stream.png",
+      "oAP" : "\/deploy\/img\/streams\/ikestream.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -257,11 +257,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/streams\/luca stream.png" : {
+    "\/deploy\/img\/streams\/lucastream.png" : {
       "ft" : 32768,
       "iS" : 135808,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/streams\/luca stream.png",
+      "oAP" : "\/deploy\/img\/streams\/lucastream.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -270,11 +270,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/streams\/shu stream.png" : {
+    "\/deploy\/img\/streams\/shustream.png" : {
       "ft" : 32768,
       "iS" : 117838,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/streams\/shu stream.png",
+      "oAP" : "\/deploy\/img\/streams\/shustream.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -283,11 +283,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/streams\/vox stream.png" : {
+    "\/deploy\/img\/streams\/voxstream.png" : {
       "ft" : 32768,
       "iS" : 102447,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/streams\/vox stream.png",
+      "oAP" : "\/deploy\/img\/streams\/voxstream.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,

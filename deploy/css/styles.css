@@ -440,10 +440,10 @@ textarea {
   width: 100%;
 }
 #Alban article #not {
-  background-color: #FA7A3A;
+  background-color: #3D5A80;
 }
 #Alban article #thief {
-  background-color: #3D5A80;
+  background-color: #FA7A3A;
 }
 #Alban ul {
   margin: 0;
@@ -490,7 +490,7 @@ textarea {
     grid-template-columns: 50% auto;
   }
 }
-#learn > div article #learn-uki {
+#learn > div article #uki {
   background-color: #B600FF;
 }
 #learn > div article #learn-yugo {
