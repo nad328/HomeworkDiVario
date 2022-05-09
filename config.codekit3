@@ -205,11 +205,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/learn more\/ukivioleta.png" : {
+    "\/deploy\/img\/learnmore\/ukivioleta.png" : {
       "ft" : 32768,
       "iS" : 29216,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/learn more\/ukivioleta.png",
+      "oAP" : "\/deploy\/img\/learnmore\/ukivioleta.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -218,12 +218,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/learn more\/yugoasuma.jpg" : {
+    "\/deploy\/img\/learnmore\/yugoasuma.jpg" : {
       "ft" : 16384,
       "iS" : 22328,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/learn more\/yugoasuma.jpg",
+      "oAP" : "\/deploy\/img\/learnmore\/yugoasuma.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
