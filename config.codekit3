@@ -117,6 +117,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/gallery\/hero2.jpg" : {
+      "ft" : 16384,
+      "iS" : 506828,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/gallery\/hero2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/gallery\/hero2.png" : {
       "ft" : 32768,
       "iS" : 1135684,
@@ -130,6 +143,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/gallery\/hero3.jpg" : {
+      "ft" : 16384,
+      "iS" : 185420,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/gallery\/hero3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/gallery\/hero3.png" : {
       "ft" : 32768,
       "iS" : 419704,
@@ -139,6 +165,19 @@
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/gallery\/hero4.jpg" : {
+      "ft" : 16384,
+      "iS" : 187036,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/gallery\/hero4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -200,6 +239,19 @@
       "oAP" : "\/deploy\/img\/heroes\/hero1.jpg",
       "oF" : 0,
       "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/learnmore\/ukivioleta.jpg" : {
+      "ft" : 16384,
+      "iS" : 28546,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/learnmore\/ukivioleta.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -226,6 +278,19 @@
       "oAP" : "\/deploy\/img\/learnmore\/yugoasuma.jpg",
       "oF" : 0,
       "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/streams\/fulgurstream.jpg" : {
+      "ft" : 16384,
+      "iS" : 100412,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/streams\/fulgurstream.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -244,6 +309,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/streams\/ikestream.jpg" : {
+      "ft" : 16384,
+      "iS" : 75111,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/streams\/ikestream.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/streams\/ikestream.png" : {
       "ft" : 32768,
       "iS" : 117622,
@@ -253,6 +331,19 @@
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/streams\/lucastream.jpg" : {
+      "ft" : 16384,
+      "iS" : 88789,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/streams\/lucastream.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -270,6 +361,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/streams\/shustream.jpg" : {
+      "ft" : 16384,
+      "iS" : 93911,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/streams\/shustream.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/streams\/shustream.png" : {
       "ft" : 32768,
       "iS" : 117838,
@@ -279,6 +383,19 @@
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/streams\/voxstream.jpg" : {
+      "ft" : 16384,
+      "iS" : 78165,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/streams\/voxstream.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

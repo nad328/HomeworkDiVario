@@ -3,6 +3,14 @@
 ============= */
 #Alban{
 
+    #AlbanK {
+         width: 100vh;
+         height: 50vh;
+        background-size: cover;
+        background-position: center center;
+         background-image: url("../img/heroes/hero1.jpg");
+    }
+
 @include md{
     grid-template-columns: auto 89% auto;
     }

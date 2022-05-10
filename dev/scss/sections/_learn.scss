@@ -28,7 +28,7 @@
 
         }
 
-        #learn-yugo{
+        #yugo{
 
             background-color: #1F51FF;
 
@@ -47,18 +47,44 @@
            padding: 16px;
            padding: 16px 16px 16px 16px;
            list-style:none;
-           font-size: 30px;
-           font-family: Verdana, Geneva, Tahoma, sans-serif;
            margin: 20px;
+        }
+
+        #uki {
+            aside{
+
+                background-image: url(../img/learnmore/ukivioleta);
+                background-position: 53% 68%;
+            }
+
+        }
+
+        #yugo {
+            aside{
+
+                background-image: url(../img/learnmore/yugoasuma.jpg);
+                background-position: 53% 68%;
+            }
         }
         
             }
 
-    aside{
+            .hero-sub-content {
+                background-color:#1F51FF;
+                color: var(--var white);
+                padding: 16 px;
+            }
 
-        img{
-            width: 35%;
-        } 
+    aside{
+        width: 85px;
+        height: 85px;
+        border-radius: 100%;
+        border: 4x solid vari(--white);
+
+        @include md{
+            width: 113px;
+            height: 113px;
+        }
 
     }
 
