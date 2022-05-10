@@ -3,11 +3,40 @@
 ============= */
 #gallery{
 
+
+  
+
     @include md{
         grid-template-columns: auto 80% auto;
         }
         
-    img{
-        width: 100%;
-    } 
+        @include xxl{
+            grid-area: gallery;
+        }
+
+        li{
+            background-size: cover;
+        }
+
+        #g1{
+            background-image: url("../img/gallery/hero2.jpg");
+            @include xl{
+                grid-area: g2;
+            }
+        }
+
+        #g2{
+            background-image: url("../img/gallery/hero3.jpg");
+            @include xl{
+                grid-area: g2;
+                background-position: center;
+            }
+        }
+        #g3{
+            background-image: url("../img/gallery/hero4.jpg");
+            @include xl{
+                grid-area: g3;
+            }
+
+        }
 }
