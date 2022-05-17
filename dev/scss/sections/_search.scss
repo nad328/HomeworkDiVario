@@ -2,5 +2,51 @@
     search 
 ============= */
 #search{
-    
+
+    margin-top: 90px;
+    padding-top: 16px;
+
+    @include lg{
+        padding-top: 24px;
+    }
+
+    >div{
+        form{
+            display: flex;
+         
+            input{
+                width: 100%;
+                box-sizing: border-box;
+                border: none;
+                border-bottom: 2px solid teal;
+                color: blue;
+                border-radius: 0;
+
+                @include xl{
+                    margin-right: 20px;
+                }
+
+            }
+
+            button{
+                background-color: #3D5A80;
+                border-radius: 3.5px;
+                padding: 6px 10px 4px;
+                margin: 0;
+                border: none;
+                cursor: pointer;
+                transition: 0.25s;
+
+                @include md{
+                    padding: 9px 16px 6px;
+                }
+
+                hover{
+                    background-color: orange;
+                }
+            }
+        }
+    }
 }
+
+    

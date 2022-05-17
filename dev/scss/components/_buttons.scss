@@ -4,6 +4,7 @@
 button{
     margin: 0;
     padding: 0;
+    cursor: pointer;
 }
 
 .main-button{
@@ -11,4 +12,8 @@ button{
     border: none;
     color: white;
     padding: 6px 14px;
+}
+
+hover{
+    background-color: orange;
 }
