@@ -6,30 +6,64 @@
 
   
 
-    @include md{
-        grid-template-columns: auto 80% auto;
-        }
-        
+  
         @include xxl{
-            grid-area: gallery;
+            display: grid;
+            grid-template-columns: auto 1440px auto;
+            grid-template-areas: ". gallery .";
         }
 
+        ul{
+
+            display: grid;
+            grid-template-rows: 50vh 75vh;
+
+        @include md{
+            grid-template-columns: 50% auto;
+            grid-template-rows: 50vh auto;
+            }
+            
+
+        @include xl{
+            grid-template-columns: 60% auto;
+            grid-template-areas: 
+            "g1 g2"
+            "g1 g3";
+
+            grid-template-rows: 30vh 30vh;
+
+        }
+
+        @include lg{
+            grid-template-columns: 65% auto;
+        }
+
+        
+
         li{
+            
             background-size: cover;
         }
 
         #g1{
             background-image: url("../img/gallery/hero2.jpg");
+
+            @include md{
+                background-position: center;
+            }
+
             @include xl{
-                grid-area: g2;
+                grid-area: g1;
             }
         }
 
         #g2{
             background-image: url("../img/gallery/hero3.jpg");
+            background-position: center;
+
             @include xl{
                 grid-area: g2;
-                background-position: center;
+                background-position: center 16%;
             }
         }
         #g3{
@@ -39,4 +73,5 @@
             }
 
         }
+}
 }

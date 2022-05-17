@@ -2,22 +2,136 @@
     streams 
 ============= */
 #streams{
-    
-ul{
-    display: grid;
-    gap: 15px;
-    grid-template-rows: repeat(5, 433px);
 
-   
-    img{
-        width: 150%;
-    } 
+    #Header {
+        h1{
+            color: #637275;
+            Font-size: rem-calc(20);
+            font-weight: 400;
+            margin-bottom: 16px;
 
-    li{
-
+            @include lg {
+                font-size: rem-calc(37);
+                font-weight:300;
+            }
+        }
     }
+    article {
 
+        @include md {
+            display: grid;
+            grid-template-columns: 16px auto 16px;
+            grid-template-areas: ". streams .";
+        }
+
+        @include xxl {
+            grid-template-columns: auto 1440px auto;
+        }
+
+        ul {
+
+            display: grid;
+            gap: 16px;
+
+            @include md {
+                grid-area: new;
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-areas:
+                    "n1 n1 n2 n2"
+                    "n3 n3 n4 n4"
+                    ". n5 n5 .";
+            }
+
+            @include lg {
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-areas:
+                    "n1 n1 n2 n2 n3 n3"
+                    ". n4 n4 n5 n5 .";
+            }
+
+
+            li {
+                aside {
+                   height: 200px;
+                   background-size: cover;
+                   background-position: center;
+
+                   @include xl{
+                       height: 300px;
+                   }
+                }
+
+                section{
+                 
+                    padding: 16px;
+
+                    h2{
+                        font-size: rem-calc(27);
+                        font-weight: 600
+                    }
+
+                    p{
+                        margin: 8px 0 16px;
+                    }
+                }
+            }
+
+            #n1 {
+                background-color: #FF0000;
+                @include md {
+                    grid-area: n1;
+                }
+                aside{
+                    background-image: url('../img/streams/fulgurstream.jpg');
+                }
+            }
+
+            #n2 {
+                background-color: #A660A7;
+                @include md {
+                    grid-area: n2;
+                }
+                aside{
+                    background-image: url('../img/streams/shustream.jpg');
+                }
+            }
+
+            #n3 {
+                background-color: #D4AF37;
+                @include md {
+                    grid-area: n3;
+                }
+                aside{
+                    background-image: url('../img/streams/lucastream.jpg');
+                }
+            }
+
+            #n4 {
+                background-color: #348EC7;
+                @include md {
+                    grid-area: n4;
+                }
+                aside{
+                    background-image: url('../img/streams/ikestream.jpg');
+
+                    @include xl{
+                        background-position: center top;
+                    }
+                }
+            }
+
+            #n5 {
+
+                background-color: #960018;
+                @include md {
+                    grid-area: n5;
+                }
+                aside{
+                    background-image: url('../img/streams/voxstream.jpg');
+                }
+            }
+        }
+    }
 }
 
     
-}

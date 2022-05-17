@@ -18,8 +18,17 @@ ul{
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". global-content .";
 
+    @include xxl{
+
+        grid-template-coumns: auto 1440px auto;
+    }
+
     >div{
         grid-area: global-content;
+    }
+
+    .content-spacing-top{
+        margin-top: 24px
     }
 
     .show-for-md{
@@ -37,5 +46,15 @@ ul{
             display: block;
         }
     }
+
+    .show-for-xl{
+        display: none;
+
+        @include xl{
+            display: block;
+        }
+    }
+
+
 }
 

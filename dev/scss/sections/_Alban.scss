@@ -4,48 +4,77 @@
 #Alban{
 
     #AlbanK {
-         width: 100vh;
+         width: 100vw;
          height: 50vh;
         background-size: cover;
-        background-position: center center;
+        background-position: center;
          background-image: url("../img/heroes/hero1.jpg");
-    }
+    
 
-@include md{
-    grid-template-columns: auto 89% auto;
-    }
+        @include lg{
+            height: 70vh;
+          }
+}
 
-    img{
-        width: 100%;
-    }
-    article{
+    article {
+        color: white;
+
+        @include md{
+            display: grid;
+            grid-template-columns: 50% auto;
+        }
+
+        .Cat-Labels{
+            display: flex;
+            align-items: center;
+
+            button {
+                background-color: transparent;
+                border: none;
+                font-size: rem-calc(16);
+                font-weight: 700;
+                color: white;
+                margin-left: auto;
+                @include lg{
+                    display: flex;
+                    align-items: center;
+                }
+
+                img{
+
+                    @include md{
+                        margin-left: 8px;
+                    }
+                }
+
+            }
+        }
 
         #not{
-            background-color: #3D5A80;
-        }
-        
-        #thief{
             background-color: #FA7A3A;
+            padding: 16px;
 
-        }
-       
-    }
-
-    ul{
-
-        margin: 0;
-        padding: 0;
-        display: flex;
-        
-        
-        li{
-           padding: 16px;
-           padding: 16px 16px 16px 16px;
-           list-style:none;
-           font-size: 20px;
-           font-family: Verdana, Geneva, Tahoma, sans-serif;
-           margin: 20px;
-        }
-        
+            include xxl{
+                grid-template-columns: auto 720px 16px;
             }
-}
+        }
+
+        #thief {
+
+            padding: 16px;
+            background-color: #3D5A80;
+
+            @include xxl{
+                grid-template-columns: 16px 720px auto;
+            }
+
+            p{
+                span{
+                    font-weight: 700;
+                }
+            }
+
+        }
+
+    }
+}   

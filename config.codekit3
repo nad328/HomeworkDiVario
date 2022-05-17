@@ -244,6 +244,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/learnmore\/Path.png" : {
+      "ft" : 32768,
+      "iS" : 175,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/learnmore\/Path.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/learnmore\/ukivioleta.jpg" : {
       "ft" : 16384,
       "iS" : 28546,

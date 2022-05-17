@@ -3,58 +3,34 @@
 ============= */
 #learn{
 
+    display: grid;
+
     @include md{
-        grid-template-columns: auto 80% auto;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". hero-sub .";
         }
 
-        @include xxl{
+        @include xl{
 
         grid-template-columns: auto 1440px auto;
         }
 
 >div{
 
+    grid-area: hero-sub;
+    display: grid;
+    gap: 24px;
+
     @include md{
-        display: grid;
         grid-template-columns: 50% auto;
-
     }
-
-    article{
-        #uki{
-
-            background-color: #B600FF;
-
-
-        }
-
-        #yugo{
-
-            background-color: #1F51FF;
-
-        }
-
-    }
-
-    ul{
-
-        margin: 0;
-        padding: 0;
-        display: flex;
-        
-        
-        li{
-           padding: 16px;
-           padding: 16px 16px 16px 16px;
-           list-style:none;
-           margin: 20px;
-        }
 
         #uki {
             aside{
 
-                background-image: url(../img/learnmore/ukivioleta);
-                background-position: 53% 68%;
+                background-image: url('../img/learnmore/ukivioleta.jpg');
+                background-position: 50% 50%;
+                
             }
 
         }
@@ -62,24 +38,40 @@
         #yugo {
             aside{
 
-                background-image: url(../img/learnmore/yugoasuma.jpg);
-                background-position: 53% 68%;
+                background-image: url('../img/learnmore/yugoasuma.jpg');
+                background-position: 50% 50%;
+                
             }
         }
         
             }
 
-            .hero-sub-content {
-                background-color:#1F51FF;
+            .sub {
+                background-color: #1F51FF;
                 color: var(--var white);
-                padding: 16 px;
+                padding: 16px;
+
+                display: flex;
+                align-items: center;
+
+                .circle-container{
+                    margin-left: auto;
+                }
+
+                h1{
+                    font-weight: 400;
+                }
+
+                button{
+                    margin-top: 16px;
+                }
             }
 
     aside{
         width: 85px;
         height: 85px;
         border-radius: 100%;
-        border: 4x solid vari(--white);
+        border: 4x solid white;
 
         @include md{
             width: 113px;
@@ -88,11 +80,6 @@
 
     }
 
-    section{
-
-    }
-
 }
 
    
-}
