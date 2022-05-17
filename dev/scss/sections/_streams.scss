@@ -34,7 +34,7 @@
             gap: 16px;
 
             @include md {
-                grid-area: new;
+                grid-area: streams;
                 grid-template-columns: repeat(4, 1fr);
                 grid-template-areas:
                     "n1 n1 n2 n2"

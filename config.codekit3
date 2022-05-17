@@ -195,6 +195,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/header\/NIJISANJI.png" : {
+      "ft" : 32768,
+      "iS" : 2669,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/header\/NIJISANJI.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/header\/Shape.png" : {
       "ft" : 32768,
       "iS" : 415,

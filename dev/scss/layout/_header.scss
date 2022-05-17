@@ -4,21 +4,39 @@
 
 header{
 
+    padding: 24px 0 16px;
+
     div{
 
+        #Yooya{
+            display: flex;
+        }
+
+        img{
+            width: 43px;
+            margin-right: 16px;
+        }
+
         section{
-            img{
-    
-            }
-            nav{
-                ul{
-                    li{
-                        a{
-    
-                        }
+
+            h1{
+                font-weight: 400;
+                font-size: rem-calc(24);
+
+                @include lg{
+                    font-size: rem-calc(34);
+                }
+
+                h3{
+                    font-weight: 400;
+                    font-size: rem-calc(9);
+                    @include lg{
+                        font-size: rem-calc(13);
                     }
                 }
             }
+            
+           
         }
     }
 
