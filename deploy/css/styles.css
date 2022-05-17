@@ -431,6 +431,13 @@ textarea {
 /* =============
     Alban 
 ============= */
+#Alban #AlbanK {
+  width: 100vh;
+  height: 50vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("../img/heroes/hero1.jpg");
+}
 @media (min-width: 768px) {
   #Alban {
     grid-template-columns: auto 89% auto;
@@ -467,8 +474,38 @@ textarea {
     grid-template-columns: auto 80% auto;
   }
 }
-#gallery img {
-  width: 100%;
+@media (min-width: 1440px) {
+  #gallery {
+    grid-area: gallery;
+  }
+}
+#gallery li {
+  background-size: cover;
+}
+#gallery #g1 {
+  background-image: url("../img/gallery/hero2.jpg");
+}
+@media (min-width: 1200px) {
+  #gallery #g1 {
+    grid-area: g2;
+  }
+}
+#gallery #g2 {
+  background-image: url("../img/gallery/hero3.jpg");
+}
+@media (min-width: 1200px) {
+  #gallery #g2 {
+    grid-area: g2;
+    background-position: center;
+  }
+}
+#gallery #g3 {
+  background-image: url("../img/gallery/hero4.jpg");
+}
+@media (min-width: 1200px) {
+  #gallery #g3 {
+    grid-area: g3;
+  }
 }
 
 /* =============
@@ -493,7 +530,7 @@ textarea {
 #learn > div article #uki {
   background-color: #B600FF;
 }
-#learn > div article #learn-yugo {
+#learn > div article #yugo {
   background-color: #1F51FF;
 }
 #learn > div ul {
@@ -505,12 +542,32 @@ textarea {
   padding: 16px;
   padding: 16px 16px 16px 16px;
   list-style: none;
-  font-size: 30px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 20px;
 }
-#learn > div aside img {
-  width: 35%;
+#learn > div ul #uki aside {
+  background-image: url(../img/learnmore/ukivioleta);
+  background-position: 53% 68%;
+}
+#learn > div ul #yugo aside {
+  background-image: url(../img/learnmore/yugoasuma.jpg);
+  background-position: 53% 68%;
+}
+#learn > div .hero-sub-content {
+  background-color: #1F51FF;
+  color: var(--var white);
+  padding: 16 px;
+}
+#learn > div aside {
+  width: 85px;
+  height: 85px;
+  border-radius: 100%;
+  border: 4x solid vari(--white);
+}
+@media (min-width: 768px) {
+  #learn > div aside {
+    width: 113px;
+    height: 113px;
+  }
 }
 /* =============
     search 
