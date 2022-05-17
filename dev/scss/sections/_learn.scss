@@ -7,7 +7,7 @@
 
     @include md{
         grid-template-columns: 16px auto 16px;
-        grid-template-areas: ". hero-sub .";
+        grid-template-areas: ". learn .";
         }
 
         @include xl{
@@ -17,9 +17,10 @@
 
 >div{
 
-    grid-area: hero-sub;
+    grid-area: learn;
     display: grid;
     gap: 24px;
+    padding: 16px;
 
     @include md{
         grid-template-columns: 50% auto;
@@ -27,9 +28,9 @@
 
         #uki {
             aside{
-
+                
                 background-image: url('../img/learnmore/ukivioleta.jpg');
-                background-position: 50% 50%;
+                background-position: 80% 50%;
                 
             }
 
@@ -37,9 +38,9 @@
 
         #yugo {
             aside{
-
+                
                 background-image: url('../img/learnmore/yugoasuma.jpg');
-                background-position: 50% 50%;
+                background-position: 90% 70%;
                 
             }
         }
@@ -47,8 +48,10 @@
             }
 
             .sub {
+        
                 background-color: #1F51FF;
-                color: var(--var white);
+                
+                color: white;
                 padding: 16px;
 
                 display: flex;

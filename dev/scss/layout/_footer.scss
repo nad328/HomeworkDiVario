@@ -1,3 +1,142 @@
 /* =============
     Footer
 ============= */
+footer{
+
+    background-color: #3D5A80;
+    color: white;
+    padding: 16;
+
+  
+
+    @include md{
+        padding: 24px 0;
+    }
+
+    @include lg{
+        padding: 48px 0;
+    }
+
+    @include xl{
+        padding: 64px 0;
+    }
+
+    >div{
+
+        display: grid;
+        gap: 16px;
+
+        @include md{
+            grid-template-columns: 50% auto;
+
+            grid-template-areas: 
+            "email"
+            "social";
+        }
+
+        @include lg{
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas: 
+            "HQ email social";
+        }
+
+        h1{
+            font-size: rem-calc(20);
+            font-weight: 600;
+            margin-bottom: 24px;
+        }
+
+        #HQ{
+            padding-top: 24px;
+            @include md{
+                grid-area: HQ;
+            }
+
+            ul{
+
+                li{
+                    margin-top: 24px;
+
+
+                    
+
+                    section{
+                       
+                        display: flex;
+                        align-items: center;
+                        margin-top: 16px;
+
+        
+
+                        img{
+                            margin-right: 24px;
+                       
+                        }
+                    }
+                }
+            }
+        }
+
+        #email{
+            padding-top: 24px;
+            @include md{
+                grid-area: email;
+            }
+
+            form{
+                input{
+                    border: none;
+                    width: 100%;
+                    box-sizing: border-box;
+                    padding: 16px 8px;
+                    margin-bottom: 24px;
+                }
+
+                section{
+                    text-align: right;
+                }
+
+
+            }
+        }
+
+        #social{
+            padding-top: 24px;
+
+            @include md{
+                grid-area: social;
+                padding-top: 0;
+                margin-top: -100px;
+            }
+
+            @include lg{
+                margin: 0;
+                text-align: right;
+            }
+
+            ul{
+                display: flex;
+
+                @include xl{
+                    justify-content: flex-end;
+                }
+            
+                li{
+                    margin-right: 16px;
+
+                    @include xxl{
+                        margin-right: 0;
+                        margin-left: 16px;
+                    }
+                    a{
+                        color: white;
+                        font-size: rem-calc(30);
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+

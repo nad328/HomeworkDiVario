@@ -41,7 +41,7 @@
         
 
         li{
-            
+
             background-size: cover;
         }
 
@@ -55,6 +55,7 @@
             @include xl{
                 grid-area: g1;
             }
+
         }
 
         #g2{

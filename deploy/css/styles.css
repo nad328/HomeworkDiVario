@@ -485,6 +485,122 @@ header div section h1 h3 {
 /* =============
     Footer
 ============= */
+footer {
+  background-color: #3D5A80;
+  color: white;
+  padding: 16;
+}
+@media (min-width: 768px) {
+  footer {
+    padding: 24px 0;
+  }
+}
+@media (min-width: 1024px) {
+  footer {
+    padding: 48px 0;
+  }
+}
+@media (min-width: 1200px) {
+  footer {
+    padding: 64px 0;
+  }
+}
+footer > div {
+  display: grid;
+  gap: 16px;
+}
+@media (min-width: 768px) {
+  footer > div {
+    grid-template-columns: 50% auto;
+    grid-template-areas: "email" "social";
+  }
+}
+@media (min-width: 1024px) {
+  footer > div {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "HQ email social";
+  }
+}
+footer > div h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+footer > div #HQ {
+  padding-top: 24px;
+}
+@media (min-width: 768px) {
+  footer > div #HQ {
+    grid-area: HQ;
+  }
+}
+footer > div #HQ ul li {
+  margin-top: 24px;
+}
+footer > div #HQ ul li section {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+footer > div #HQ ul li section img {
+  margin-right: 24px;
+}
+footer > div #email {
+  padding-top: 24px;
+}
+@media (min-width: 768px) {
+  footer > div #email {
+    grid-area: email;
+  }
+}
+footer > div #email form input {
+  border: none;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 16px 8px;
+  margin-bottom: 24px;
+}
+footer > div #email form section {
+  text-align: right;
+}
+footer > div #social {
+  padding-top: 24px;
+}
+@media (min-width: 768px) {
+  footer > div #social {
+    grid-area: social;
+    padding-top: 0;
+    margin-top: -100px;
+  }
+}
+@media (min-width: 1024px) {
+  footer > div #social {
+    margin: 0;
+    text-align: right;
+  }
+}
+footer > div #social ul {
+  display: flex;
+}
+@media (min-width: 1200px) {
+  footer > div #social ul {
+    justify-content: flex-end;
+  }
+}
+footer > div #social ul li {
+  margin-right: 16px;
+}
+@media (min-width: 1440px) {
+  footer > div #social ul li {
+    margin-right: 0;
+    margin-left: 16px;
+  }
+}
+footer > div #social ul li a {
+  color: white;
+  font-size: 1.875rem;
+}
+
 /* =============
     Alban 
 ============= */
@@ -628,7 +744,7 @@ header div section h1 h3 {
 @media (min-width: 768px) {
   #learn {
     grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". hero-sub .";
+    grid-template-areas: ". learn .";
   }
 }
 @media (min-width: 1200px) {
@@ -637,9 +753,10 @@ header div section h1 h3 {
   }
 }
 #learn > div {
-  grid-area: hero-sub;
+  grid-area: learn;
   display: grid;
   gap: 24px;
+  padding: 16px;
 }
 @media (min-width: 768px) {
   #learn > div {
@@ -648,15 +765,15 @@ header div section h1 h3 {
 }
 #learn > div #uki aside {
   background-image: url("../img/learnmore/ukivioleta.jpg");
-  background-position: 50% 50%;
+  background-position: 80% 50%;
 }
 #learn > div #yugo aside {
   background-image: url("../img/learnmore/yugoasuma.jpg");
-  background-position: 50% 50%;
+  background-position: 90% 70%;
 }
 #learn .sub {
   background-color: #1F51FF;
-  color: var(--var white);
+  color: white;
   padding: 16px;
   display: flex;
   align-items: center;
